@@ -10,14 +10,14 @@
     <Company>inkle Ltd</Company>
     <Authors>InkleStudios</Authors>
     <Copyright>inkle Ltd</Copyright>
-    <RepositoryUrl>https://github.com/inkle/ink</RepositoryUrl>
+    <RepositoryUrl>https://github.com/qyl27/ink</RepositoryUrl>
     <PackageProjectUrl>https://www.inklestudios.com/ink/</PackageProjectUrl>
     <VersionPrefix>1.2.0</VersionPrefix>
     <PackageIcon>icon.png</PackageIcon>
-    <Description>Compiler for the ink scripting language</Description>
+    <Description>Compiler for the ink scripting language. (A fork for nuget publish.)</Description>
     <RepositoryType>git</RepositoryType>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageId>Inkle.Ink.Compiler</PackageId>
+    <PackageId>Qyl27.Ink.Compiler</PackageId>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
@@ -45,9 +45,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\LICENSE.txt" Pack="true" PackagePath="\"/>
-    <None Include="..\README.md" Pack="true" PackagePath="\"/>
-	<None Include="..\icon.png" Pack="true" PackagePath="\"/>
+    <None Include="..\LICENSE.txt" Pack="true" PackagePath="\" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+	<None Include="..\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
